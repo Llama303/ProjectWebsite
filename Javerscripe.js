@@ -1,13 +1,13 @@
 const max=100;
 const min=50;
-const rolldice = document.getElementById("rolldice");
+const rolldice50to100 = document.getElementById("rolldice50to100");
 const RB= document.getElementById("RB");
 const diceresult = document.getElementById("diceresult");
 
 let random;
 //Math.trunc(Math.random()*(max-min)) + min;
 
-rolldice.onclick= function(){
+rolldice50to100.onclick= function(){
    random=Math.trunc(Math.random()*(max-min)) + min;
    diceresult.textContent=random;
 }
