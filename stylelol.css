@@ -1,0 +1,16 @@
+body{
+    font-family: cursive, sans-serif;
+    background-color: aqua;
+}
+h5{
+    font-size:10em;
+    font-family:"Jersey 10",sans-serif;
+}
+#rolldice{
+    border-radius: 10px;
+    font-size: 2em;
+}
+#RB{
+    border-radius: 10px;
+    font-size: 1em;
+}

@@ -1,0 +1,13 @@
+{
+    "scripts": {
+      "build-css": "npx @tailwindcss/cli -i ./TTwind.css -o ./dist/output1.css",
+      "watch-css": "npx @tailwindcss/cli -i ./TTwind.css -o ./dist/output1.css --watch"
+    },
+    "dependencies": {
+      "@tailwindcss/vite": "^4.1.18",
+      "tailwindcss": "^4.1.18"
+    },
+    "devDependencies": {
+      "@tailwindcss/cli": "^4.1.18"
+    }
+  }
