@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Oswald&family=Gravitas One&family=Platypi:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+     
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="dist/output.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
+    
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TEST SITE</title>
+</head>
+<body class="">
+
+   <header>
+    <div class="container py-6 flex items-center justify-between">
+       <div>
+        <h4 class="text-2xl">LOGO <strong>HERE</strong></h4>
+       </div>
+
+<!--This is for the Buttons near the banner-->
+        <nav>
+          <ul class="flex flex-col sm:flex-row items-center gap-4 list-none ">
+
+            <li class="font-bold">
+              <a href="#">HOME</a>
+            </li>
+
+            <li class="hover:underline">
+              <a href="AboutUsPage\About us.html">About Us</a>
+            </li>
+
+            <!-- This is the drop down menu for the contact us button-->
+            <li class="hover:font-bold">
+              <div class="relative">
+                <button id="Dropdownbt">Contact Us</button>
+                
+                <div id="dropmenu" class="hidden absolute left-1/2 transform -translate-x-1/2 top-full mt-2 bg-black shadow-lg rounded z-10">
+                  <a href="https://www.instagram.com/web_makers876?igsh=ZHo2cDhjN3U2bTNq" class="block px-4 py-2 hover:underline text-white relative z-10 whitespace-nowrap right-3 w-24">Instagram</a>
+                </div>
+              </div>
+            </li>
+<!-- the end of the drop down menu for the contact us button-->
+          </ul>
+        </nav>
+    </div>
+   </header>
+
+ <!--This is for the banner-->
+  <main>
+    <section id="Banner" 
+    class="relative bg-cover min-h-[300px] flex items-center justify-center"
+    style="background-image: url('photos/designer-drawing-website-mockup.jpg');"> <br>
+      
+    <div class="absolute inset-0 z-0 bg-gray-800/60" ></div>
+
+    <div class="container relative z-10 text-center"> 
+        <h1 class="text-[30px] mb-3 md:text-[40px] lg:text-[60px] lg:mb-4 font-black uppercase">
+          Title goes here</h1>
+
+        <h2 class="text-[20px] mb-2 md:text-[25px] md:mb-8 lg:text-[35px]">
+          Some Form of information</h2>   
+
+        <a href="#" id="CalltA" class="button text-white">Call to action</a>
+      </div>
+    </section>
+  </main>
+
+  <!--Bellow banner Informtion-->
+  <div
+    <h3 class="text-center mt-5"><strong class="text-32l">LOREM ITSMT</strong></h3>
+    <div class="container bg-gray-300 max-w-250  rounded-[20px] mt-3">
+    <h5 class="text-center">Dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. 
+    </h5>
+    </div>
+  </div>
+  <div class="min-h-[800px]">(to check scrolling) </div>
+ <script src="JJS.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Block vs Inline Example</title>
+<style>
+  /* Block elements styling */
+  .block {
+    display: block;              /* Explicitly block */
+    background-color: lightblue;
+    padding: 5px;
+    margin: 5px 0;
+    border: 2px solid blue;
+  }
+
+  /* Inline elements styling */
+  .inline {
+    display: inline;              /* Explicitly inline */
+    background-color: lightgreen;
+    padding: 5px;
+    border: 2px solid green;
+  }
+</style>
+</head>
+<body>
+
+<h2>Block Elements</h2>
+<div class="block">Block Element 1</div>
+<div class="block">Block Element 2</div>
+<p class="block">Paragraph as a block</p>
+
+<h2>Inline Elements</h2>
+<span class="inline">Inline Element 1</span>
+<span class="inline">Inline Element 2</span>
+<span class="inline">Inline Element 3</span>
+
+<h2>Mixed Example</h2>
+<p>
+  This is a paragraph (block) with 
+  <span class="inline">inline text</span> 
+  inside it, and another 
+  <span class="inline">inline span</span>.
+</p>
+
+</body>
+</html>

@@ -1,0 +1,2 @@
+For development: Run npm run watch-css in a terminal to automatically rebuild CSS when you make changes
+For production: Run npm run build-css before deploying

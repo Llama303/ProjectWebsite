@@ -1,0 +1,40 @@
+h1{
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  font-style: normal;
+   }
+h2{font-family: "Jersey 10", sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  font-style: normal;
+   }
+h3{font-family: "Gravitas One", sans-serif;
+}
+h4{
+  font-family: "Oswald", sans-serift;
+}
+h5{
+  
+}
+p{
+  color: black;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+body{
+  background-image: url('photos/Screenshot 2025-12-27 180907.pn');
+  background-position: left top;
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  
+}
+.button{
+  padding: 10px;
+  border-radius: 5px;
+}
+#CalltA:hover{
+  background-color: rgb(25, 78, 18);
+}
+
